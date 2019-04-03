@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Selenium Easy Alerts Sample</title>
+</head>
+<body>
+	<h2>Alert Box Example</h2>
+	<fieldset>
+		<legend>Alert Box</legend>
+		<p>Click the button to display an alert box.</p>
+		<button onclick="alertFunction()">Alert Me</button>
+		<br> <br>
+		<button onclick="confirmFunction()">Confirm Me</button>
+		<br> <br>
+		<button onclick="promptFunction()">Prompt Me</button>
+		<script>
+			function alertFunction() {
+				alert("I am an example for alert box!");
+			}
+			function confirmFunction()
+			{
+			    confirm("Did you like Selenium?");
+			}
+			function promptFunction()
+			{
+			    prompt("Enter Selenium version:", "Selenium 3.0");
+			}
+		</script>
+	</fieldset>
+</body>
+</html>
